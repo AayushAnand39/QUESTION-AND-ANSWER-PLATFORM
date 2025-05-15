@@ -40,6 +40,74 @@ To build and run this platform, you will need:
 2. A **terminal** or command-line interface.
 3. Basic knowledge of **C programming** and Makefiles (if using one).
 
+## 🛠️ Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)
+
+To build and run the **server** and **client** applications, you need to install the OpenSSL development libraries, which provide the `-lssl` and `-lcrypto` functionality for cryptographic operations like password hashing.
+
+### 📦 Installing OpenSSL Libraries
+
+#### On Debian/Ubuntu-based systems:
+
+```bash
+sudo apt update
+sudo apt install libssl-dev
+```
+
+#### On RedHat/CentOS/Fedora-based systems, install the OpenSSL development package by running:
+
+```bash
+sudo dnf install openssl-devel
+```
+
+#### To install OpenSSL on Arch Linux, run:
+
+```bash
+sudo pacman -S openssl
+```
+
+#### Make sure you also have the GCC compiler and pthreads library available. Most systems include these by default, but if needed, on Debian/Ubuntu-based systems you can install them with:
+
+```bash
+sudo apt install build-essential
+```
+
+🧪 **Compiling and Running**
+
+🔧 **Compiling the Server**  
+Use the following command to compile `server.c`:
+
+```bash
+gcc -o server server.c -lssl -lpthread -lcrypto
+```
+
+- -lssl: Links against the OpenSSL SSL library.
+- -lcrypto: Links against the OpenSSL cryptographic library.
+- -lpthread: Enables POSIX threading support.
+
+🔧 **Compiling the Client**  
+Use the following command to compile `client.c`:
+
+```bash
+gcc -o client client.c -lpthread
+```
+- -lpthread: Enables POSIX threading support for concurrent operations.
+
+▶️ **Running the Server and Client**  
+Once compiled:
+
+Start the server (in one terminal):
+
+```bash
+./server
+```
+
+Start the client (in another terminal):
+
+```bash
+./client
+```
+
+
 ## Usage
 
 1. **Launching the Platform**:
@@ -524,70 +592,3 @@ The server processes the following commands sent by clients:
 - All shared resources (e.g., `users` and `questions` arrays) are protected with mutex locks to prevent race conditions in a multithreaded environment.
 
 ---
-
-## 🛠️ Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)
-
-To build and run the **server** and **client** applications, you need to install the OpenSSL development libraries, which provide the `-lssl` and `-lcrypto` functionality for cryptographic operations like password hashing.
-
-### 📦 Installing OpenSSL Libraries
-
-#### On Debian/Ubuntu-based systems:
-
-```bash
-sudo apt update
-sudo apt install libssl-dev
-```
-
-#### On RedHat/CentOS/Fedora-based systems, install the OpenSSL development package by running:
-
-```bash
-sudo dnf install openssl-devel
-```
-
-#### To install OpenSSL on Arch Linux, run:
-
-```bash
-sudo pacman -S openssl
-```
-
-#### Make sure you also have the GCC compiler and pthreads library available. Most systems include these by default, but if needed, on Debian/Ubuntu-based systems you can install them with:
-
-```bash
-sudo apt install build-essential
-```
-
-🧪 **Compiling and Running**
-
-🔧 **Compiling the Server**  
-Use the following command to compile `server.c`:
-
-```bash
-gcc -o server server.c -lssl -lpthread -lcrypto
-```
-
-- -lssl: Links against the OpenSSL SSL library.
-- -lcrypto: Links against the OpenSSL cryptographic library.
-- -lpthread: Enables POSIX threading support.
-
-🔧 **Compiling the Client**  
-Use the following command to compile `client.c`:
-
-```bash
-gcc -o client client.c -lpthread
-```
-- -lpthread: Enables POSIX threading support for concurrent operations.
-
-▶️ **Running the Server and Client**  
-Once compiled:
-
-Start the server (in one terminal):
-
-```bash
-./server
-```
-
-Start the client (in another terminal):
-
-```bash
-./client
-```
