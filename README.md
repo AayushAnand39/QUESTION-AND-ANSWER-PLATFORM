@@ -4,15 +4,20 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
+   - [Installing OpenSSL Libraries](#installing-openssl-libraries)
+   - [Compiling and Running](#compiling-and-running)
+5. [Usage](#usage)
+6. [Features of `client.c`](#features-of-clientc)
+7. [Features of `server.c`](#features-of-serverc)
+8. [Commands and Structures in `client.c`](#commands-and-structures-in-clientc)
+9. [Commands and Structures in `server.c`](#commands-and-structures-in-serverc)
+10. [Contributing](#contributing)
+11. [License](#license)
+12. [Acknowledgements](#acknowledgements)
 
 ## Overview
 
