@@ -597,3 +597,15 @@ The server processes the following commands sent by clients:
 - All shared resources (e.g., `users` and `questions` arrays) are protected with mutex locks to prevent race conditions in a multithreaded environment.
 
 ---
+
+## Project Responsibility
+
+| Section | Responsibility          | Team Members                                   |
+|---------|-------------------------|------------------------------------------------|
+| A       | **System Design**       | Devansh Srivastava, Pranjal Singh              |
+| B       | **Project Planning**    | Sagar Bejawada, Ritesh Kumar Yadav             |
+| C       | **Coding**              | Aayush Anand, Nirvik Jana, Devansh Srivastava  |
+| D       | **PPT Design**          | Subhamita Halder, Shaswat Ranjan               |
+| E       | **UI Interfacing**      | Aditya Pratap Singh, Syamantak Banerjee        |
+| F       | **Resource Management** | Kunal Singh Munda, Ritesh Kumar Yadav          |
+
