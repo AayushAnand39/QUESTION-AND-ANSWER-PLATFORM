@@ -8,7 +8,7 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
 4. [Installation](#installation)
-   - [Installing OpenSSL Libraries](#installing-openssl-libraries)
+   - [Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)](#installing-openssl-libraries-lssl-and-lcrypto)
    - [Compiling and Running](#compiling-and-running)
 5. [Usage](#usage)
 6. [Features of `client.c`](#features-of-clientc)
@@ -45,7 +45,7 @@ To build and run this platform, you will need:
 2. A **terminal** or command-line interface.
 3. Basic knowledge of **C programming** and Makefiles (if using one).
 
-## 🛠️ Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)
+## Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)
 
 To build and run the **server** and **client** applications, you need to install the OpenSSL development libraries, which provide the `-lssl` and `-lcrypto` functionality for cryptographic operations like password hashing.
 
@@ -76,7 +76,7 @@ sudo pacman -S openssl
 sudo apt install build-essential
 ```
 
-🧪 **Compiling and Running**
+## Compiling and Running
 
 🔧 **Compiling the Server**  
 Use the following command to compile `server.c`:
