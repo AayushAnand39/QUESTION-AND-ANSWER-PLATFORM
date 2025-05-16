@@ -21,7 +21,8 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 
 ## PowerPoint Presentation
 [Question And Answer Platform Presentation](https://drive.google.com/file/d/1gycFTV6agJNMXrKvpIhSaJA8cc532mz0/view?usp=sharing)
-This PowerP
+<br>
+This is the PowerPoint presentation of our Question and Answer Platform which includes complete explanation of the project and contains the modular level design of the project.
 
 ## Overview
 
