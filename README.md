@@ -15,7 +15,8 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 7. [Features of `server.c`](#features-of-serverc)
 8. [Commands and Structures in `client.c`](#commands-and-structures-in-clientc)
 9. [Commands and Structures in `server.c`](#commands-and-structures-in-serverc)
-10. [Project Responsibility](#project-responsibility)
+10. [Working of the Client Side Process](#working-of-the-client-side-process)
+11. [Project Responsibility](#project-responsibility)
 
 ## Overview
 
@@ -596,6 +597,28 @@ The server processes the following commands sent by clients:
 
 ---
 
+## Working of the Client Side Process
+
+1. Registration of the user:
+   <br><img src="Screenshots/register.png" alt="Alt text" width="500"/>
+2. User logging in:
+   <br><img src="Screenshots/login.png" alt="Alt text" width="500"/>
+3. Question posting feature:
+   <br><img src="Screenshots/post.png" alt="Alt text" width="500"/>
+4. Question listing feature:
+   <br><img src="Screenshots/list.png" alt="Alt text" width="500"/>
+5. Question answering feature:
+   <br><img src="Screenshots/answer.png" alt="Alt text" width="500"/>
+6. Question searching feature:
+   <br><img src="Screenshots/search.png" alt="Alt text" width="500"/>
+7. Answer rating feature:
+   <br><img src="Screenshots/rating.png" alt="Alt text" width="500"/>
+8. Leaderboard feature:
+   <br><img src="Screenshots/leaderboard.png" alt="Alt text" width="500"/>
+9. Exit:
+   <br><img src="Screenshots/exit.png" alt="Alt text" width="500"/>
+
+
 ## Project Responsibility
 
 | Section | Responsibility          | Team Members                                   |
@@ -606,19 +629,3 @@ The server processes the following commands sent by clients:
 | D       | **PPT Design**          | Subhamita Halder, Shaswat Ranjan               |
 | E       | **UI Interfacing**      | Aditya Pratap Singh, Syamantak Banerjee        |
 | F       | **Resource Management** | Kunal Singh Munda, Ritesh Kumar Yadav          |
-
-## Working of the Client Side Process
-
-1. Registration of the user:
-   <br><img src="Screenshots/register.png" alt="Alt text" width="300"/>
-2. User logging in:
-   <br><img src="Screenshots/login.png" alt="Alt text" width="300"/>
-3. Question posting feature:
-   <br><img src="Screenshots/post.png" alt="Alt text" width="300"/>
-4. Question listing feature:
-   <br><img src="Screenshots/list.png" alt="Alt text" width="300"/>
-7. Question answering feature:
-8. Question searching feature:
-9. Answer rating feature:
-10. Leaderboard feature:
-11. Exit:
