@@ -610,7 +610,7 @@ The server processes the following commands sent by clients:
 ## Working of the Client Side Process
 
 1. Registration of the user:
-   [Screenshot]
+   ![Register](screenshots/register.png)
 3. User logging in:
 4. Question posting feature:
 5. Question listing feature:
