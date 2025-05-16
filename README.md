@@ -4,19 +4,24 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Installation](#installation)
+1. [PowerPoint Presentation](#powerpoint-presentation)
+2. [Overview](#overview)
+3. [Features](#features)
+4. [Prerequisites](#prerequisites)
+5. [Installation](#installation)
    - [Installation of OpenSSL Libraries (`-lssl` and `-lcrypto`)](#installing-openssl-libraries-lssl-and-lcrypto)
    - [Compiling and Running](#compiling-and-running)
-5. [Usage](#usage)
-6. [Features of `client.c`](#features-of-clientc)
-7. [Features of `server.c`](#features-of-serverc)
-8. [Commands and Structures in `client.c`](#commands-and-structures-in-clientc)
-9. [Commands and Structures in `server.c`](#commands-and-structures-in-serverc)
-10. [Working of the Client Side Process](#working-of-the-client-side-process)
-11. [Project Responsibility](#project-responsibility)
+6. [Usage](#usage)
+7. [Features of `client.c`](#features-of-clientc)
+8. [Features of `server.c`](#features-of-serverc)
+9. [Commands and Structures in `client.c`](#commands-and-structures-in-clientc)
+10. [Commands and Structures in `server.c`](#commands-and-structures-in-serverc)
+11. [Working of the Client Side Process](#working-of-the-client-side-process)
+12. [Project Responsibility](#project-responsibility)
+
+## PowerPoint Presentation
+[Question And Answer Platform Presentation](https://drive.google.com/file/d/1gycFTV6agJNMXrKvpIhSaJA8cc532mz0/view?usp=sharing)
+This PowerP
 
 ## Overview
 
