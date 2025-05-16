@@ -607,3 +607,15 @@ The server processes the following commands sent by clients:
 | E       | **UI Interfacing**      | Aditya Pratap Singh, Syamantak Banerjee        |
 | F       | **Resource Management** | Kunal Singh Munda, Ritesh Kumar Yadav          |
 
+## Working of the Client Side Process
+
+1. Registration of the user:
+   [Screenshot]
+3. User logging in:
+4. Question posting feature:
+5. Question listing feature:
+6. Question answering feature:
+7. Question searching feature:
+8. Answer rating feature:
+9. Leaderboard feature:
+10. Exit:
