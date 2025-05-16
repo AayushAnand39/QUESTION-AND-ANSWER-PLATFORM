@@ -610,12 +610,15 @@ The server processes the following commands sent by clients:
 ## Working of the Client Side Process
 
 1. Registration of the user:
-   <img src="Screenshots/register.png" alt="Alt text" width="300"/>
-3. User logging in:
-4. Question posting feature:
-5. Question listing feature:
-6. Question answering feature:
-7. Question searching feature:
-8. Answer rating feature:
-9. Leaderboard feature:
-10. Exit:
+   <br><img src="Screenshots/register.png" alt="Alt text" width="300"/>
+2. User logging in:
+   <br><img src="Screenshots/login.png" alt="Alt text" width="300"/>
+3. Question posting feature:
+   <br><img src="Screenshots/post.png" alt="Alt text" width="300"/>
+4. Question listing feature:
+   <br><img src="Screenshots/list.png" alt="Alt text" width="300"/>
+7. Question answering feature:
+8. Question searching feature:
+9. Answer rating feature:
+10. Leaderboard feature:
+11. Exit:
