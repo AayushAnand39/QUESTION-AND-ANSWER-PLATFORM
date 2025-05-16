@@ -15,9 +15,7 @@ Welcome to the **QUESTION AND ANSWER PLATFORM** repository! This platform is dev
 7. [Features of `server.c`](#features-of-serverc)
 8. [Commands and Structures in `client.c`](#commands-and-structures-in-clientc)
 9. [Commands and Structures in `server.c`](#commands-and-structures-in-serverc)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Acknowledgements](#acknowledgements)
+10. [Project Responsibility](#project-responsibility)
 
 ## Overview
 
